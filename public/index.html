@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Someone? Chat</title>
+</head>
+<body>
+    <div id="main">
+        <p id="users"></p>
+        <ul id="messages"></ul>
+        <p id="name">Digite um nickname</p>
+    </div>
+    <form id="form" action="">
+        <input id="input" autocomplete="off" placeholder="MENSAGENS"/><button>Enviar</button>
+    </form>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="client.js"></script>
+</body>

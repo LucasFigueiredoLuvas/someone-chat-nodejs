@@ -10,8 +10,8 @@ const host = process.env.HEROKU_APP_NAME ? `https://${process.env.HEROKU_APP_NAM
 
 app.use(express.static('public'))
 
-app.get('/', (req, res) => {
-	res.sendFile(__dirname + '/public/index.html')
+app.get('/', async(req, res) => {
+	await res.sendFile(__dirname + '/public/index.html')
 })
 
 io.on('connection', (user) => {

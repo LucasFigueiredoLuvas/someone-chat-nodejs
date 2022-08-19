@@ -8,7 +8,7 @@ https://someone-chat-nodejs.herokuapp.com/
 
 Thanks to Heroku!
 
-## LOCAL INSTALLATION
+## Local Installation:
 
 <h4>_Requirements:</h4>
 <p>nodejs</p>

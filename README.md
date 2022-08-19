@@ -4,12 +4,13 @@ https://someone-chat-nodejs.herokuapp.com/
 Thanks to Heroku!
 
 **LOCAL INSTALLATION**
-**Requirements:**
+
+*Requirements:*
 -nodejs
 -npm
 -Internet Browser (view the app working)
 
-**Installation:**
+*Installation:*
 In your CLI run:
 npm install
 npm start
